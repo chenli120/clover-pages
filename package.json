@@ -1,0 +1,39 @@
+{
+  "name": "clover-pages",
+  "version": "0.1.0",
+  "description": "static web app workflow",
+  "keywords": [
+    "clover-pages",
+    "zce"
+  ],
+  "homepage": "https://github.com/zce/clover-pages#readme",
+  "bugs": {
+    "url": "https://github.com/zce/clover-pages/issues"
+  },
+  "license": "MIT",
+  "author": "chenli120 <854569711@qq.com>",
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zce/clover-pages.git"
+  },
+  "scripts": {
+    "lint": "standard --fix",
+    "test": "ava"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^2.2.0",
+    "standard": "^13.1.0"
+  },
+  "engines": {
+    "node": ">=6"
+  }
+}
